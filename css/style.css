@@ -1984,7 +1984,7 @@ ul.benefits-together li {
 /* 			               13. CUSTOM STYLES                  */
 /* ========================================================== */
 
-.whatsapp {
+.btn-whatsapp {
 	position: fixed;
 	width: 60px;
 	height: 60px;
@@ -1998,11 +1998,11 @@ ul.benefits-together li {
 	z-index: 100;
 }
 
-.whatsapp .whatsapp-icon {
+.btn-whatsapp .whatsapp-icon {
 	margin-top: 13px;
 }
 
-.whatsapp:hover,
-.whatsapp:focus {
+.btn-whatsapp:hover,
+.btn-whatsapp:focus {
 	color: #fff;
 }
