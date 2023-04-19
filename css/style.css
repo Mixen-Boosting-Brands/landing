@@ -1993,13 +1993,11 @@ ul.benefits-together li {
 	background-color: #25d366;
 	color: #fff;
 	border-radius: 50%;
-	text-align: center;
 	font-size: 30px;
 	z-index: 100;
-}
-
-.btn-whatsapp .bi-whatsapp {
-	margin-top: 13px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .btn-whatsapp:hover,
