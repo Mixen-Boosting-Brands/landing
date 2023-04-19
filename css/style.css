@@ -13,6 +13,7 @@
 10. CONTACT
 11. OTHER ELEMENTS
 12. MEDIA QUERIES
+13. CUSTOMS STYLES
 
 --- */
 
@@ -1977,4 +1978,31 @@ ul.benefits-together li {
 		margin: 0 5px 20px 5px;
 	}
 
+}
+
+/* ========================================================== */
+/* 			               13. CUSTOM STYLES                  */
+/* ========================================================== */
+
+.whatsapp {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 20px;
+	right: 20px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 30px;
+	z-index: 100;
+}
+
+.whatsapp .whatsapp-icon {
+	margin-top: 13px;
+}
+
+.whatsapp:hover,
+.whatsapp:focus {
+	color: #fff;
 }
